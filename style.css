@@ -1,0 +1,130 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    color: #17233D;
+    margin-left: 32px;
+    word-spacing: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    margin-top: 10px;
+}
+
+button {
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+}
+
+img {
+    width: 533px;
+    height: 460px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    margin-left: 121px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    width: 582px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    width: 493px;
+}
+
+#link-article {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+article {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:900px) {
+    .links {
+        display: none;
+    }
+
+    button {
+        width: 61px;
+        height: 18px;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-left: 300px;
+    }
+
+    h1 {
+        width: 278px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        margin-top: 100px;
+    }
+
+    p {
+        width: 304px;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+
+    #link-article {
+        color: #6FBF44;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-left: 90px;
+
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 30px;
+    }
+}
